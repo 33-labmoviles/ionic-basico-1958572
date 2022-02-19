@@ -27,11 +27,11 @@ function calcularTotal() {
     console.log(productos);
 
 
-    ticket.innerHTML = "Productos : Tamales-$20"
-    //productos.forEach(item => {
-      //  ticket.innerHTML += "<br><ion-item><ion-label>"+item.producto+" $"+item.monto+"</ion-label></ion-item>"
-    //});
+    ticket.innerHTML = "Productos : "
+    productos.forEach(item => {
+        ticket.innerHTML += "<br><ion-item><ion-label>"+item.producto+" $"+item.monto+"</ion-label></ion-item>"
+    });
     //Imprimir en pagina
 
-    totalMsg.innerHTML = "Total : $20" /*+ total*/;
+    totalMsg.innerHTML = "Total : " + total;
 }
