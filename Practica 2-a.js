@@ -34,4 +34,4 @@ function calcularTotal() {
     //Imprimir en pagina
 
     totalMsg.innerHTML = "Total : " + total;
-}
+} 
